@@ -4,7 +4,7 @@
 
 ## Decisões e provas pendentes
 
-1. Publicar o primeiro commit no repositório público `saylonrb/cao-game`, criar `staging` e verificar o CI remoto; commits, push de branches e PRs foram autorizados pelo responsável em 16/11/2026.
+1. Corrigir o CI Python em PR para `staging` e verificar o workflow remoto; a base já está publicada em `main` e `staging`.
 2. Iniciar PostgreSQL local e verificar conexão/migrações quando o daemon Docker estiver disponível; `docker compose config` já passou.
 3. Implementar I1 (contas e lobby) com testes unitários e de integração; confirmar execução real do CI após a publicação da base.
 4. Definir navegadores suportados e metas de resposta após medição; detalhar sessão, backup e monitoramento antes do piloto remoto.
