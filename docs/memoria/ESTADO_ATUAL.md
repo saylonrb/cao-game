@@ -6,7 +6,7 @@
 
 ## Marco concluído
 
-Visão do produto, requisitos, stack, arquitetura e plano de execução aprovados. ADR-0001 aceito. API e interface iniciais criadas; não há contas, salas ou partidas. Repositório local inicializado com `main` e remoto `origin` apontando para `https://github.com/saylonrb/cao-game.git`; o repositório remoto está vazio e público. Nenhum commit ou push foi feito.
+Visão do produto, requisitos, stack, arquitetura e plano de execução aprovados. ADR-0001 aceito. API e interface iniciais criadas; não há contas, salas ou partidas. A base foi publicada no repositório público `saylonrb/cao-game`, com `main` e `staging` no mesmo commit inicial. O CI da interface passou; o job Python falhou antes de iniciar por referência inválida à action `setup-uv@v9`. Correção preparada em `fix/ci-setup-uv`.
 
 ## Trabalho atual
 
@@ -25,7 +25,7 @@ I0 criou a API FastAPI + Socket.IO com rota `/health`, interface React/Vite/Type
 
 ## Próxima tarefa
 
-Publicar o primeiro commit em `main`, criar `staging` a partir dele e verificar o CI remoto. O responsável autorizou commits, push de branches e abertura de PRs neste repositório em 16/11/2026. Concluir I0 verificando PostgreSQL quando o daemon Docker estiver disponível; depois iniciar I1 (contas e lobby) com testes unitários e de integração. Antes de qualquer piloto remoto, validar reinícios, reconexão, cotas, backup e segurança.
+Publicar e validar a correção do CI por PR para `staging`; o responsável autorizou commits, push de branches e abertura de PRs neste repositório em 16/11/2026. Concluir I0 verificando PostgreSQL quando o daemon Docker estiver disponível; depois iniciar I1 (contas e lobby) com testes unitários e de integração. Antes de qualquer piloto remoto, validar reinícios, reconexão, cotas, backup e segurança.
 
 ## Referências
 
